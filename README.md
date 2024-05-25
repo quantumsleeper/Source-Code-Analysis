@@ -6,7 +6,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/
+git clone https://github.com/quantumsleeper/Source-Code-Analysis.git
 ```
 ### 1. Create a conda environment after opening the repository
 
@@ -23,3 +23,30 @@ conda activate llmapp
 ```bash
 pip install -r requirements.txt
 ```
+
+### 3. Create a `.env` file in the root directory and add your OPENAI_API_KEY credentials as follows:
+
+```ini
+OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+
+### 4. Run the following command
+```bash
+python app.py
+```
+
+### 5. Launch localhost on your web browser 
+```bash
+localhost:8080
+```
+
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Flask
+- OpenAI
+- GPT 3
+- ChoromaDB
